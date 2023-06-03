@@ -211,5 +211,4 @@ position = Vector2( 33, 54 )
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2( 8, 15 )
 current = true
-smoothing_enabled = true
-smoothing_speed = 2.0
+smoothing_speed = 0.2
