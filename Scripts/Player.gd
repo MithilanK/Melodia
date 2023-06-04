@@ -43,10 +43,11 @@ func get_input():
 		else:
 			saultclock += 1
 		saultFactor = 2.5
+		velocity = velocity.normalized() * (speed) * saultFactor
 	else:
 		saultFactor = 1	
+		velocity = velocity.normalized() * (speed)
 	
-	velocity = velocity.normalized() * (speed * saultFactor)
 
 func handle_animation():
 	if moving:
