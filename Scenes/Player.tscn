@@ -39,7 +39,7 @@ tracks/0/keys = {
 "values": [ 0 ]
 }
 
-[sub_resource type="Animation" id=11]
+[sub_resource type="Animation" id=4]
 resource_name = "DownRoll"
 step = 0.031
 tracks/0/type = "value"
@@ -55,7 +55,7 @@ tracks/0/keys = {
 "values": [ 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39 ]
 }
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=5]
 length = 0.4
 tracks/0/type = "value"
 tracks/0/path = NodePath("brownguydown-sheet:frame")
@@ -82,8 +82,7 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="Animation" id=5]
-resource_name = "LeftIdle"
+[sub_resource type="Animation" id=6]
 length = 0.2
 tracks/0/type = "value"
 tracks/0/path = NodePath("brownguydown-sheet:frame")
@@ -110,7 +109,7 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="Animation" id=9]
+[sub_resource type="Animation" id=7]
 resource_name = "LeftSault"
 length = 0.55
 step = 0.05
@@ -139,7 +138,7 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="Animation" id=6]
+[sub_resource type="Animation" id=8]
 length = 0.4
 tracks/0/type = "value"
 tracks/0/path = NodePath("brownguydown-sheet:frame")
@@ -166,8 +165,7 @@ tracks/1/keys = {
 "values": [ false ]
 }
 
-[sub_resource type="Animation" id=7]
-resource_name = "RightIdle"
+[sub_resource type="Animation" id=9]
 length = 0.2
 tracks/0/type = "value"
 tracks/0/path = NodePath("brownguydown-sheet:frame")
@@ -223,7 +221,7 @@ tracks/1/keys = {
 "values": [ true ]
 }
 
-[sub_resource type="Animation" id=8]
+[sub_resource type="Animation" id=11]
 length = 0.2
 tracks/0/type = "value"
 tracks/0/path = NodePath("brownguydown-sheet:frame")
@@ -270,13 +268,13 @@ shape = SubResource( 1 )
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Down = SubResource( 2 )
 anims/DownIdle = SubResource( 3 )
-anims/DownRoll = SubResource( 11 )
-anims/Left = SubResource( 4 )
-anims/LeftIdle = SubResource( 5 )
-anims/LeftSault = SubResource( 9 )
-anims/Right = SubResource( 6 )
-anims/RightIdle = SubResource( 7 )
+anims/DownRoll = SubResource( 4 )
+anims/Left = SubResource( 5 )
+anims/LeftIdle = SubResource( 6 )
+anims/LeftSault = SubResource( 7 )
+anims/Right = SubResource( 8 )
+anims/RightIdle = SubResource( 9 )
 anims/RightSault = SubResource( 10 )
 anims/Up = ExtResource( 3 )
-anims/UpIdle = SubResource( 8 )
+anims/UpIdle = SubResource( 11 )
 anims/UpRoll = SubResource( 12 )
